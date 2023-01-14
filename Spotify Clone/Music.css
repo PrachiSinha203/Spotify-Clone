@@ -1,0 +1,182 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    color: #696d85;
+    border-bottom: 1px solid #696d85;
+}
+
+.icon{
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    height: 44px;
+    width: 44px;
+    border-radius: 22px;
+    background-color: aliceblue;
+    background-image: url('icons8-spotify-54.png');
+    background-position: center;
+}
+
+.user{
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-image: url(beautiful-bloom-blooming-531675.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed;
+    width: 50px;
+    height: 100vh;
+    top: 70px;
+    left: 0px;
+    background-color: rgb(1, 16, 0);
+    transition: all 0.1s ease;
+    overflow: hidden;
+    box-shadow: 5px 1px 5px #696d8576;
+}
+
+.sidebar:hover{
+    width: 150px;
+    transition: all 0.2s ease;
+}
+
+table{
+    /* background-color: #373b64; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+tr{
+    background-color: rgb(1, 16, 0);
+    height: 30px;
+    color: rgba(255, 255, 255, 0.638);
+}
+
+tr:hover{
+    cursor: pointer;
+}
+
+td{
+    background-color: rgb(1, 16, 0);
+}
+
+.image{
+    width: 20px;
+}
+
+.label{
+    width: 90px;
+}
+
+.main{
+    position:absolute;
+    top: 70px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgb(192, 111, 250) 0%, black 40%);
+}
+h1{
+    position: relative;
+    color: white;
+    width: 100vw;
+    left: 170px;
+    top: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+}
+
+.im{
+    position: relative;
+    left: 40px;
+    top: 130px;
+    height: 100px;
+    width: 100px;
+    background-image: url('maxresdefault.jpg');
+    background-position: right;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.music_info{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100vw;
+    border: #696d85 solid 1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progression{
+    width: 90vw;
+    cursor: pointer;
+}
+
+#playing, #prev, #next{
+    cursor: pointer;
+}
+
+.songlist{
+    position: relative;
+    top: 350px;
+
+}
+
+img{
+    height: 30px;
+    margin: 0px 40px;
+}
+
+.songItem{
+    position: relative;
+    margin: 23px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.songItem span{
+    background-color: transparent;
+    margin: 0px 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.songItem .duration{
+    position: absolute;
+    right: 15vw;
+}
+
+.timespan{
+    cursor: pointer;
+    position: absolute;
+    right: 2.55vw;
+}
+
+.icons button{
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+

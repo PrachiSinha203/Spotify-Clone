@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="Music.css">
+</head>
+<body>
+    <div class="main">
+        <div class="im"></div>
+        <h1>NCS Favs</h1>
+    </div>
+    <div class="songlist">
+        <div class="songItem">
+            <span>1</span>
+            <img src="Song1.png">
+            <span>On & On</span>
+            <span class="duration">03:28</span>
+            <span class="timespan"><i class="fa-regular fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+            <span>2</span>
+            <img src="Song2.jpg">
+            <span>Samurai</span>
+            <span class="duration">03:20</span>
+            <span class="timespan"><i class="fa-regular fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+            <span>3</span>
+            <img src="Song3.jpg">
+            <span>Memory Nights</span>
+            <span class="duration">03:16</span>
+            <span class="timespan"><i class="fa-regular fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+            <span>4</span>
+            <img src="Song4.jpg">
+            <span>Invisible</span>
+            <span class="duration">04:40</span>
+            <span class="timespan"><i class="fa-regular fa-circle-play"></i></span>
+        </div>
+        <div class="songItem">
+            <span>5</span>
+            <img src="Screenshot_20221214_224923.png">
+            <span>Sky High Pt.II</span>
+            <span class="duration">03:28</span>
+            <span class="timespan"><i class="fa-regular fa-circle-play"></i></span>
+        </div>
+    </div>
+    <!-- <section class="sidebar">
+        <div class="tabs">
+           <img>
+           <span>Home</span>
+       </div>
+       <div class="tabs">
+           <img>
+           <span>Explore</span>
+       </div>
+       <div class="tabs">
+           <img>
+           <span>Library</span>
+       </div>
+       <table>
+           <tr class="home">
+               <td class="image"></td>
+               <td class="label">Home</td>
+           </tr>
+           <tr class="home">
+               <td class="image"></td>
+               <td class="label">Home</td>
+           </tr>
+           <tr class="home">
+               <td class="image"></td>
+               <td class="label">Home</td>
+           </tr>
+       </table>
+   </section> -->
+    <div class="music_info">
+        <input type="range", min="0", max="100", value = "0", id="progression">
+        <div class="icons">
+            <button id = "prev"><i class="fa-solid fa-2x fa-backward-step"></i></button>
+            <button id="playing"><i class="fa-regular fa-2x fa-circle-play" id="playPause"></i></button>
+            <button id = "next"><i class="fa-solid fa-2x fa-forward-step"></i></button>
+        </div>
+    </div>
+    <div class = "header">
+        <div class="icon"></div>
+        <button class="user"></button>
+    </div>
+<script src="Music.js"></script>
+<script src="https://kit.fontawesome.com/9eba308083.js" crossorigin="anonymous"></script>
+</body>
+</html>
